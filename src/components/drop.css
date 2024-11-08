@@ -1,0 +1,17 @@
+.btn {
+  background-color: #2C7B95;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2C7B95;
+}
+
+.dropdown {
+  float: right;
+  margin-right: 20px;
+}

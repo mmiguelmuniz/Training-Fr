@@ -1,0 +1,28 @@
+/* Navbar.css */
+
+
+/* Estilo personalizado para a navbar */
+.custom-navbar {
+  background-color: #2C7B95;
+  /* Cor azul personalizada */
+  height: 80px;
+  /* Ajuste a altura da navbar */
+}
+
+/* Adiciona margem superior ao conteúdo para evitar sobreposição com a navbar fixa */
+body {
+  padding-top: 80px;
+  /* Ajuste este valor conforme a altura da sua navbar */
+}
+
+/* Estilo para a marca na navbar */
+.navbar-brand.text-white {
+  color: #fff !important;
+  /* Define a cor do texto como branco */
+}
+
+/* Estilo personalizado para espaçar logo e texto */
+.logo-text-spacing {
+  margin-left: 1rem;
+  /* Ajuste este valor conforme necessário */
+}

@@ -1,0 +1,33 @@
+.custom-navbar {
+  background-color: #2C7B95;
+}
+
+.bg-custom {
+  background-color: #2C7B95;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.bg {
+  background-color: #2C7B95;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: #fff
+}
+
+.navbar-toggler {
+  background-color: #fff;
+  border: none;
+}
+
+.navbar-toggler-icon {
+
+  background-color: #2C7B95;
+}

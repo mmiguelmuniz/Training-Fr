@@ -1,0 +1,112 @@
+/* body.css */
+
+/* Container em largura total */
+.full-width-container {
+  width: 100%;
+}
+
+/* Título */
+.uu {
+  margin: 0; /* Remova qualquer margem */
+  padding: 0; /* Remova qualquer padding */
+  font-family: "Noto Sans", sans-serif;
+  text-align: center; /* Centralize o texto horizontalmente */
+  transition: transform 0.3s ease-in-out; /* Adicione uma transição suave à transformação */
+}
+
+/* Opcional: Ajustar outras propriedades conforme necessário */
+
+
+/* Imagem fluida */
+.img-fluid {
+  width: 50%;
+  height: auto;
+  margin-top: -100px;
+  margin-left: 100px;
+  transition: transform 0.3s ease-in-out; /* Adicione uma transição suave à transformação */
+}
+
+.img-fluid:hover {
+  transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+/* Imagem da câmera no card */
+.card-img-camera {
+  width: 200px; /* Largura desejada */
+  height: auto; /* Altura automática para manter a proporção */
+  display: block; /* Faz a imagem se comportar como um bloco */
+  margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Imagem do som no card */
+.card-img-som {
+  width: 200px; /* Largura desejada */
+  height: auto; /* Altura automática para manter a proporção */
+  display: block; /* Faz a imagem se comportar como um bloco */
+  margin: 0 auto; /* Centraliza a imagem */
+}
+.intro-text {
+  margin-top: -40px; /* Mova o texto mais para cima */
+  text-align: left; /* Alinhe o texto à esquerda */
+  padding-left: 5px; /* Adicione algum padding à esquerda */
+  margin-left: -100px; /* Mova o texto mais para a esquerda */
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+/* Defina a animação gamificada */
+@keyframes gamifiedMove {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+  
+.hero {
+  background-color: #f0f0f0; /* Adjust background color as needed */
+  padding: 50px 0;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  /* Customize button styles here */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img-img{
+  width: 55%;
+  margin-left: 100px;
+}
+
+.btn-custom {
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  font-size: 0.9rem;
+  width: 160px; 
+}
