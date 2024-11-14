@@ -150,18 +150,16 @@ const BodyPart2: React.FC = () => {
       </div>
       <div className="row mt-4">
         <div className="col-md-4 d-flex justify-content-start">
-        <button
-        type="button"
-        className="btn btn-outline-primary"
-        onClick={() => {
-          window.location.href = "/agendamento?course=Custom%20Training#target-section";
-          setTimeout(() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }, 100);
-        }}
-      >
+      <button
+      type="button"
+      className="btn btn-primary"
+      onClick={() => {
+        window.location.href = "/agendamento?course=Custom%20Training#target-section";
+      }}
+    >
       I didn't find the training I need »
-      </button>
+    </button>
+
         </div>
       </div>
     </div>

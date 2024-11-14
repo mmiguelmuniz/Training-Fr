@@ -99,16 +99,16 @@ const FormPage: React.FC = () => {
     ) : (
       <>
         <section id="target-section">
-          <h1 className="title">Request Appointment</h1>
+          <h1 className="title fs-3 fs-md-2 fs-lg-1">Request Appointment</h1>
           <br />
           <div className={`card ${step === 2 ? 'expanded-card' : 'card-custom'}`}>
             <div className="card-body">
               {step === 1 && (
                 <>
                   <div className="image-container text-center">
-                    <p className="mt-3">
+                    <p className="mt-3 fs-6 fs-md-5 fs-lg-4">
                       To schedule your training with us, click next, wait a little and you will have access to our calendar. <br /> <br /> 
-                      <strong>
+                      <strong className='fs-6 fs-md-5 fs-lg-4'>
                       The name of the training is below. You will need it for the form; <br />I recommend that you copy the name using the shortcut below. <br />Press the finish button only after you have completed your booking in Google Calendar.
                       </strong>
                     </p>

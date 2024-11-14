@@ -1,47 +1,18 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+import enTranslation from '../i18n/locales/en/translationes.json';
+import ptTranslation from '../i18n/locales/pt/translationpt.json';
 
-const resources = {
-  en: {
-    translation: {
-      "navbarTitle": "It Training",
-      "contactUs": "Contact Us",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Submit",
-      "scheduleTraining": "Schedule Training",
-      "language": "Language",
-      "english": "English",
-      "portuguese": "Portuguese",
-    }
+i18n.use(initReactI18next).init({
+  resources: {
+    en: { translation: enTranslation },
+    pt: { translation: ptTranslation }
   },
-  pt: {
-    translation: {
-      "navbarTitle": "Treinamento de TI",
-      "contactUs": "Contate-Nos",
-      "name": "Nome",
-      "email": "Email",
-      "message": "Mensagem",
-      "submit": "Enviar",
-      "scheduleTraining": "Agendar Treinamento",
-      "language": "Idioma",
-      "english": "Inglês",
-      "portuguese": "Português",
-    }
+  lng: 'en',
+  fallbackLng: 'en',
+  interpolation: {
+    escapeValue: true 
   }
-};
-
-i18n
-  .use(LanguageDetector)
-  .use(initReactI18next)
-  .init({
-    resources,
-    fallbackLng: 'en',
-    interpolation: {
-      escapeValue: false,
-    }
-  });
+});
 
 export default i18n;
